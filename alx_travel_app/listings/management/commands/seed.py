@@ -4,7 +4,7 @@ from decimal import Decimal
 from datetime import date, timedelta
 import random
 
-from alx_travel_app.listings.models import Listing, Booking, Review
+from alx_travel_app.alx_travel_app import Listing, Booking, Review
 
 
 class Command(BaseCommand):
